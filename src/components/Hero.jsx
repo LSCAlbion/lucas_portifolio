@@ -17,18 +17,28 @@ const Hero = () => {
           </span>
         </h1>
         
-        {/* Descrição */}
-        <p className="text-text-secondary text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-          Sou o Lucas, um desenvolvedor focado em React e Ecossistema Python.
-          Transformo problemas complexos em interfaces limpas e sistemas performáticos.
-        </p>
+        {/* Texto de Apresentação */}
+        {/* Alterações:
+            - max-w-3xl: Largura ideal para leitura (9xl ficaria muito esticado).
+            - text-gray-200: Cor quase branca para contraste.
+            - text-justify: Alinhamento justificado.
+            - leading-relaxed: Espaço entre linhas para não ficar embolado.
+        */}
+        <div className="max-w-3xl mx-auto"> 
+          <p className="text-lg md:text-xl text-gray-200 mb-8 text-justify hyphens-auto leading-relaxed">
+            Olá! Sou <strong>Lucas Santos da Conceição</strong>, estudante de Engenharia de Software no 5º período pela Universidade Evangélica de Goiás. Minha jornada na tecnologia é impulsionada pelo desenvolvimento de soluções práticas, com experiência acadêmica em Python, incluindo projetos de visão computacional e algoritmos de recomendação, além de conhecimentos em Backend, Frontend e MySQL.
+            <br /><br />
+            Possuo inglês avançado e trago uma bagagem sólida do mercado de trabalho: na Fortbras (Jaicar Autopeças), fui promovido de estoquista a supervisor de expedição em curto prazo, o que comprova minha dedicação, fidelidade e capacidade de liderança. Atualmente, busco aplicar essa ética de trabalho no desenvolvimento de software e expandir meus horizontes para a Segurança da Informação.
+          </p>
+        </div>
         
         {/* Botões de Ação */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        {/* Alteração: Adicionado 'mt-12' para dar mais espaço do texto */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
           <a href="#projetos" className="px-8 py-4 bg-brand rounded-full font-bold text-white hover:bg-brand-hover transition-all hover:-translate-y-1 shadow-lg shadow-brand/25">
             Ver meu trabalho
           </a>
-          <a href="https://github.com/LSCAlbion" target="_blank" className="px-8 py-4 bg-surface border border-surface-hover rounded-full font-bold text-text-primary hover:bg-surface-hover transition-all hover:-translate-y-1">
+          <a href="https://github.com/LSCAlbion" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-surface border border-surface-hover rounded-full font-bold text-text-primary hover:bg-surface-hover transition-all hover:-translate-y-1">
             GitHub
           </a>
         </div>
