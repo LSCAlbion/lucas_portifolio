@@ -19,7 +19,7 @@
 
   /* --- Cores de Texto --- */
   --color-text-primary: #ffffff; /* Branco puro para contraste no preto */
-  --color-text-secondary: #a1a1aa; /* Cinza médio (Zinc-400) */
+  --color-text-secondary: #e4e4e7; /* Cinza médio (Zinc-400) */
   
   /* Gradiente especial Rubro-Negro para textos grandes */
   --image-gradient-brand: linear-gradient(to right, #DC2626, #ffffff);
