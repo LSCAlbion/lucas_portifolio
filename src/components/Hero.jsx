@@ -12,7 +12,7 @@ const Hero = () => {
         {/* Título Principal */}
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
           Criando soluções digitais com <br />
-          <span className="bg-gradient-brand bg-clip-text text-transparent">
+          <span className="bg-gradient-brand bg-clip-text">
             Inteligência e Código
           </span>
         </h1>

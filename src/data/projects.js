@@ -6,5 +6,14 @@ export const projects = [
     techs: ["React", "Vite", "Tailwind CSS v4", "Responsive Design"],
     linkRepo: "https://github.com/LSCAlbion/lucas_portifolio.git", // Lembre de criar esse repo no seu GitHub!
     linkDemo: "#"
+  },
+
+  {
+    id: 2,
+    title: "MyGameList",
+    description: "Projeto desenvolvido em conjunto com meu parceiro Felipe, uma plataforma para gamers focada no gerenciamento de backlog e catálogo de jogos. O sistema permite que usuários rastreiem o progresso de seus jogos (jogando, completado, etc.), vinculem plataformas e gerenciem horas de jogo.",
+    techs: ["Node.js", "React", "Express", "PostgreeSQL", "Prisma ORM", "Docker"],
+    linkRepo: "https://github.com/fdasilvapa/MyGameList", // Lembre de criar esse repo no seu GitHub!
+    linkDemo: "#"
   }
 ];

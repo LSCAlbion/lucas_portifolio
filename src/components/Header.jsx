@@ -6,7 +6,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo / Nome */}
         <h1 className="text-2xl font-bold text-brand hover:text-brand-hover cursor-pointer transition-colors">
-          Lucas<span className="text-text-primary"></span>
+          Lucas<span className="text-text-primary">.dev</span>
         </h1>
         
         {/* Navegação */}
